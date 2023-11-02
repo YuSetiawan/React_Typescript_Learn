@@ -1,6 +1,6 @@
-// Typescript Props on Object
+// Typescript Props on Conditional
 type StatusProps = {
-  status: string;
+  status: 'loading' | 'success' | 'error';
 };
 
 export const Status = (props: StatusProps) => {
