@@ -1,9 +1,8 @@
+import {Name} from './Person.types';
+
 // Typescript Props on Array
 type PersonListProps = {
-  names: {
-    first: string;
-    last: string;
-  }[];
+  names: Name[]; //Import props
 };
 
 export const PersonList = (props: PersonListProps) => {
