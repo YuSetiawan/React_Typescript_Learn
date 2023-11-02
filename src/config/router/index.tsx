@@ -5,6 +5,7 @@ import {StyleProps} from '../../pages/StyleProps';
 import {EventProps} from '../../pages/EventProps';
 import {Theme} from '../../pages/Theme';
 import {UserTheme} from '../../pages/UserTheme';
+import {ClassComponent} from '../../pages/ClassComponent';
 
 export const Router = () => {
   return (
@@ -18,6 +19,7 @@ export const Router = () => {
           <Route path="/eventProps" element={<EventProps />} />
           <Route path="/theme" element={<Theme />} />
           <Route path="/userTheme" element={<UserTheme />} />
+          <Route path="/classComp" element={<ClassComponent />} />
         </Routes>
       </BrowserRouter>
     </div>
