@@ -6,6 +6,8 @@ import {EventProps} from '../../pages/EventProps';
 import {Theme} from '../../pages/Theme';
 import {UserTheme} from '../../pages/UserTheme';
 import {ClassComponent} from '../../pages/ClassComponent';
+import {ComponentProp} from '../../pages/ComponentProp';
+import {GenericProp} from '../../pages/GenericProp';
 
 export const Router = () => {
   return (
@@ -20,6 +22,8 @@ export const Router = () => {
           <Route path="/theme" element={<Theme />} />
           <Route path="/userTheme" element={<UserTheme />} />
           <Route path="/classComp" element={<ClassComponent />} />
+          <Route path="/componentProp" element={<ComponentProp />} />
+          <Route path="/genericProp" element={<GenericProp />} />
         </Routes>
       </BrowserRouter>
     </div>
