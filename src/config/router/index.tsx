@@ -9,6 +9,7 @@ import {ClassComponent} from '../../pages/ClassComponent';
 import {ComponentProp} from '../../pages/ComponentProp';
 import {GenericProp} from '../../pages/GenericProp';
 import {RestrictingProps} from '../../pages/RestrictingProps';
+import {TemplateLiterals} from '../../pages/TemplateLiterals';
 
 export const Router = () => {
   return (
@@ -26,6 +27,7 @@ export const Router = () => {
           <Route path="/componentProp" element={<ComponentProp />} />
           <Route path="/genericProp" element={<GenericProp />} />
           <Route path="/restrictProp" element={<RestrictingProps />} />
+          <Route path="/tempLiterals" element={<TemplateLiterals />} />
         </Routes>
       </BrowserRouter>
     </div>
